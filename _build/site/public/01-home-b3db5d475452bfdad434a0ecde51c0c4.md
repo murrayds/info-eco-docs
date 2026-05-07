@@ -1,0 +1,26 @@
+---
+title: Home
+---
+
+This is a quickstart guide for getting connecting to uAlbany's rearch computing and accessing the InfoEco storage drive.
+
+### Accessing Computing
+[VPN Access] is necessary for connecting from outside the uAlbany network.
+
+[SSH Access] is for connecting to the research computers.
+
+### Scheduling Jobs
+[Slurm] is the research computing scheduling program, used for requesting additional CPU or GPU processing and additional memory.
+
+### Helpful Articles
+[tmux and screen] for allowing jobs to persist after your shell session closes.
+
+### General Info
+[Research Computing] provides info on the research computing environment, typically our lab will use the HPC cluster.
+
+[VPN Access]: https://albany.atlassian.net/wiki/spaces/askit/pages/52333741/VPN+Virtual+Private+Network
+[SSH Access]: https://albany.atlassian.net/wiki/spaces/askit/pages/52331279/How-to+Connect+via+SSH+PuTTY+macOS+terminal
+[Slurm]: https://albany.atlassian.net/wiki/spaces/askit/pages/52346802/How-to+Scheduling+via+SLURM
+[tmux and screen]: https://albany.atlassian.net/wiki/spaces/askit/pages/52347609/How-to+Using+screen+or+tmux+to+preserve+a+Linux+terminal+session
+[Research Computing]: https://albany.atlassian.net/wiki/spaces/askit/pages/712245272/UAlbany+Supercomputing+Resources+Guide
+
