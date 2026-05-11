@@ -16,6 +16,6 @@ Download is performed using the AWS CLI tool installed to your ~/.local/bin with
 nohup ~/.local/bin/aws s3 sync "s3://openalex" "/network/rit/lab/info-eco/openalex-snapshot" --no-sign-request &
 ```
 
-Data is downloaded as a set of gzip-compressed json files.  Conversion from these files to the parquet file format is handled with a script.  Refer to [Preparing Dataset].
+Data is downloaded as a set of gzip-compressed json files.  Conversion from these files to the parquet file format is handled with a script.  Refer to [dataset conversion].
 
-[dataset conversion]: /data-preparation
+[dataset conversion]: /parquet-conversion

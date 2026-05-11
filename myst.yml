@@ -13,7 +13,7 @@ project:
     - file: 02-openalex.md
       children:
       - file: 02-1-openalex-download.md
-      - file: 02-2-parquet-conversion.md
+      - file: 02-2-data-preparation.md
     - file: 03-duckdb.md
     - file: 04-miniconda.md
     - file: 05-myst.md
