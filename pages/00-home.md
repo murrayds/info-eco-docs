@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# What we do
+# Overview
 Welcome to the Lab Manual for the Information Ecosystems Lab (InfoEco). 
 
 Our lab investigates the structure and dynamics of information ecosystems. An ecosystem is a social system that meets the following criteria:
