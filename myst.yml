@@ -28,7 +28,7 @@ project:
       - file: pages/30-data/31-openalex.md
     - title: Research Skills
       children:
-      - file: pages/40-data/41-taking-notes.md
+      - file: pages/40-research/41-taking-notes.md
     
 site:
   template: book-theme
