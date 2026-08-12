@@ -22,9 +22,13 @@ project:
       - file: pages/20-technical/23-research-computing.md
       - file: pages/20-technical/24-microconda.md
       - file: pages/20-technical/25-duckdb.md
+      - file: pages/20-technical/26-taking-notes.md
     - title: Data
       children:
       - file: pages/30-data/31-openalex.md
+    - title: Research Skills
+      children:
+      - file: pages/40-data/41-taking-notes.md
     
 site:
   template: book-theme
