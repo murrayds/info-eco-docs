@@ -9,7 +9,7 @@ project:
   # github: https://github.com/jupyter-book/mystmd-quickstart
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
-    - file: pages/10-overview/10-home.md
+    - file: pages/00-home.md
     - title: About
       children:
       - file: pages/10-overview/11-lab-info.md

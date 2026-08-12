@@ -22,4 +22,9 @@ An example of relevant questions:
 - Are there any types of institutions or technical changes that can foster a healthier information ecosystem, one where verified information can reach where it is needed most?
 
 
-# Lab Information
+# Using the docs
+This site acts as a repository for useful information about the InfoEco Lab. Think of it as a lab manual. As you work in the lab, you will likely be tasked with adding or editing content. If you are new to the lab, please read the following pages:
+
+- [Basic lab information](pages/10-overview/11-lab-info.md)
+- [Lab expectations](pages/10-overview/12-lab-expectations.md)
+- [Onboarding](pages/10-overview/13-onboarding.md)
