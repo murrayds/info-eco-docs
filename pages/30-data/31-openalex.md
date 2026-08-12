@@ -1,6 +1,38 @@
 ---
-title: Preparing Dataset
+title: OpenAlex
 ---
+
+# The OpenAlex dataset is a essentially a map of research data, including things like articles, authors, universities, and references.
+
+### Relevant Links
+[OpenAlex Documentation] is the documentation hub for the OpenAlex research dataset.
+
+[AWS CLI for Download] is the tool we use for downloading the database.
+
+[Browse Dataset]
+
+[OpenAlex Documentation]: https://developers.openalex.org/
+[AWS CLI for Download]: https://developers.openalex.org/download/download-to-machine
+[Browse Dataset]: https://openalex.s3.amazonaws.com/browse.html
+
+# Downloading OpenAlex
+### Installing AWS Cli
+Install the AWS Cli tool to your ~/local/bin/ by navigating to:
+`/network/rit/lab/info-eco/installer/aws/`
+Read README.md, specifically the section titled: Installing without sudo
+
+Then run the install script with the appropriate commands.
+
+### Download
+Download is performed using the AWS CLI tool installed to your ~/.local/bin with the following command:
+
+```
+nohup ~/.local/bin/aws s3 sync "s3://openalex" "/network/rit/lab/info-eco/openalex-snapshot" --no-sign-request &
+```
+
+Data is downloaded as a set of gzip-compressed json files.  Conversion from these files to the parquet file format is handled with a script.  Refer to [Preparing Dataset].
+
+# Data Preparation
 
 **Important: File paths are hard-coded in scripts. If file locations change, the values must be adjusted.**
 
@@ -35,3 +67,4 @@ The OpenAlex dataset is downloaded in batches of gzipped json files. Transformin
 - Converting json files into parquet:
 
 `/network/rit/lab/info-eco/miniconda/envs/env_duckdb/bin/python /network/rit/lab/info/scripts/openalex-pipeline/sub/parquet_converter.py`
+

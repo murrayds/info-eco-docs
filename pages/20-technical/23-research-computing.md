@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Research Computing
 ---
 
 This is a quickstart guide for getting connecting to uAlbany's rearch computing and accessing the InfoEco storage drive.

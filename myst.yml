@@ -9,14 +9,21 @@ project:
   # github: https://github.com/jupyter-book/mystmd-quickstart
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
-    - file: 01-home.md
-    - file: 02-openalex.md
+    - file: pages/10-overview/10-home.md
       children:
-      - file: 02-1-openalex-download.md
-      - file: 02-2-data-preparation.md
-    - file: 03-duckdb.md
-    - file: 04-miniconda.md
-    - file: 05-myst.md
+      - file: pages/10-overview/11-lab-info.md
+      - file: pages/10-overview/12-expectations.md
+      - file: pages/10-overview/13-onboarding.md
+    - title: Technical Skills
+      children:
+      - file: pages/20-technical/21-updating-the-docs.md
+      - file: pages/20-technical/22-git.md
+      - file: pages/20-technical/23-research-computing.md
+      - file: pages/20-technical/24-microconda.md
+      - file: pages/20-technical/25-duckdb.md
+    - title: Data
+      children:
+      - file: pages/30-data/31-openalex.md
     
 site:
   template: book-theme
