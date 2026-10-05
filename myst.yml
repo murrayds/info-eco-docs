@@ -23,6 +23,9 @@ project:
       - file: pages/20-technical/24-microconda.md
       - file: pages/20-technical/25-duckdb.md
       - file: pages/20-technical/26-taking-notes.md
+      - file: pages/20-technical/27-hpc-vscode-claude-setup.md
+      - file: pages/20-technical/28-hpc-quick-start.md
+      - file: pages/20-technical/29-hpc-session-routine.md
     - title: Data
       children:
       - file: pages/30-data/31-openalex.md
